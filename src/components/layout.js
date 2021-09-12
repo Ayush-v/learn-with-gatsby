@@ -25,7 +25,9 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
 
   return (
     <main className={container}>
-      <title>{pageTitle}</title>
+      <title>
+        {pageTitle} | {webdata.site.siteMetadata.title}
+      </title>
       <p className={siteTitle}>{webdata.site.siteMetadata.title}</p>
       <nav>
         <ul className={navLinks}>
