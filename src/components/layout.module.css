@@ -17,11 +17,16 @@
 }
 .nav-link-text {
   color: black;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .site-title {
   font-size: 3rem;
   color: gray;
   font-weight: 700;
+}
+
+.bbb {
+  text-decoration: none;
+  color: rgb(168, 160, 223);
 }
