@@ -1,6 +1,5 @@
 module.exports = {
   flags: {
-    THE_FLAG: false,
     DEV_SSR: false,
   },
   siteMetadata: {
@@ -11,6 +10,7 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
